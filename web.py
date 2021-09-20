@@ -9,7 +9,7 @@ def index():
     if request.method == 'GET':
         return render_template('index.html', title='')
     if request.method == 'POST':
-        url = 'https://laba11111111111111.herokuapp.com/'
+        url = 'https://laba1222.herokuapp.com/'
         data = [[float(request.form['list1']),
                           float(request.form['list2']),
                           float(request.form['list3']),
